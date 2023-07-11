@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Devine le nombre</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./cssstyle.css">
+
+
+<script src="script.js" defer></script>
+  </head>
+  
+  
+
+  <body class="w3-center">
+<div class="boite2">  
+      <div class="boiteItem2">
+	<h1 class="jeu">-=JEU=-</h1><h1 class="titreJeu"> Devine le nombre</h1>
+    <hr>
+	</div>
+<div class="boiteItem">
+    <p><b>J'ai séléctionné un nombre aléatoire entre 1 et 100...<br><br>Voyons si tu peux le deviner en 10 tours, ou moins.<br>Je te dirais si ta proposition est trop haute ou trop basse.</b></p>
+<hr>
+</div>
+<div class="boiteItem">
+    <div class="form">
+      <label for="guessField"><strong>Vas-y, entre une proposition : </strong></label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Soumettre proposition" class="guessSubmit">
+    </div>
+	<hr>
+</div>
+
+<div class="boiteItem">
+    <div class="resultParas" id="resultParas">
+      <p class="guesses" id="guesses"></p>
+      <p class="lastResult" id="lastResult"></p>
+      <p class="lowOrHi" id="lowOrHi"></p>
+    </div>
+</div>
+</div>
+    
+
+
+
+    
+  </body>
+</html>
